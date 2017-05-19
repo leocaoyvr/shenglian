@@ -2,11 +2,12 @@
 var browserSync  = require('browser-sync').create();
 var gulp         = require('gulp');
 var autoprefixer = require('gulp-autoprefixer');
-var csslint      = require('gulp-csslint');
 var plumber      = require('gulp-plumber');
 var runSequence  = require('run-sequence');
 var htmlclean    = require('gulp-htmlclean');
 var uglify       = require('gulp-uglify');
+var csso         = require('gulp-csso');
+var sourcemaps   = require('gulp-sourcemaps');
 
 // Browser Sync Dev
 gulp.task('browserSync', function() {
@@ -51,12 +52,16 @@ gulp.task('browserSync', function() {
 gulp.task('css', function() {
   return gulp.src('./dev/assets/css/**')
     .pipe(plumber())
-    // .pipe(csslint('csslintrc.json'))
-    // .pipe(csslint.formatter())
-    // .pipe(csslint.formatter('fail'))
+    .pipe(sourcemaps.init())
     .pipe(autoprefixer({
       browsers: ['last 2 versions', 'ie 8', 'ie 9']
     }))
+    .pipe(csso({
+      restructure: true,
+      sourceMap: true,
+      debug: true
+    }))
+    .pipe(sourcemaps.write())
     .on('error', function (error) {
       console.error(error);
       this.emit('end');
@@ -92,13 +97,13 @@ gulp.task('image', function () {
 // script
 gulp.task('script', function () {
   return gulp.src('./dev/assets/js/**')
+    .pipe(uglify())
     .pipe(gulp.dest('./dist/assets/js/'))
 });
 
 // vendor
 gulp.task('vendor', function () {
   return gulp.src('./dev/assets/vendor/**')
-    // .pipe(uglify())
     .pipe(gulp.dest('./dist/assets/vendor/'))
 });
 
