@@ -135,7 +135,7 @@
 	-webkit-background-size: inherit !important;
 	background-size: inherit !important;
 }
-.bg-image-parallax { 
+.bg-image-parallax {
 	background-repeat: no-repeat;
 	background-position: 50% 0%;
 	-webkit-background-size: cover;
@@ -148,8 +148,8 @@
 /* ------------------------------------------------------------- */
 
 /* font alternate 1 */
-.font-alter-1 { 
-	font-family: 'Galada', cursive;
+.font-alter-1 {
+	font-family: SimSun, Georgia, 'Times New Roman', Times, serif;
 	font-weight: normal !important;
 	text-transform: none !important;
 	letter-spacing: 0 !important;
@@ -162,8 +162,8 @@
 .h6.font-alter-1, h6.font-alter-1 { font-size: 18px !important; }
 
 /* font alternate 2 */
-.font-alter-2 { 
-	font-family: 'Bilbo Swash Caps', cursive;
+.font-alter-2 {
+	font-family: SimSun, Georgia, 'Times New Roman', Times, serif;
 	font-weight: normal !important;
 	text-transform: none !important;
 	letter-spacing: 0 !important;
@@ -176,8 +176,8 @@
 .h6.font-alter-2, h6.font-alter-2 { font-size: 24px !important; }
 
 /* font alternate 3 */
-.font-alter-3 { 
-	/* add your alternate font family here if needed */ 
+.font-alter-3 {
+	/* add your alternate font family here if needed */
 }
 
 
@@ -593,7 +593,7 @@
 
 
 /* ------------------------------------------------------------------ *
- *  Background transparent gradient color classes 
+ *  Background transparent gradient color classes
  *  gradient generator: http://www.colorzilla.com/gradient-editor/
 /* ------------------------------------------------------------------ */
 
@@ -945,9 +945,9 @@
  *  Margin classes
 /* ------------------------------------------------------------- */
 
-.margin-auto { 
-	margin-left: auto !important; 
-	margin-right: auto !important; 
+.margin-auto {
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 .margin-5 { margin: 5px !important; }
