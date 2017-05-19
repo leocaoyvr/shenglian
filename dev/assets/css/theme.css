@@ -612,6 +612,9 @@ ul.menu-list > li.active > a:before {
 	background-color: #ea4e4e;
 }
 
+/* if sub-menu item is active, the whole sub-menu is unfolded */
+ul.menu-list > li.active .sub-menu { display: block; }
+
 /* sub menu
 ================ */
 ul.menu-list .sub-menu {
