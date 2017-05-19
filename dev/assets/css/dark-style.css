@@ -1,6 +1,6 @@
 /* --------------------------------------------------------------------
 * Template Dark Style Stylesheet
-* 
+*
 * Template:		FreeBird - Photography Portfolio HTML Website Template
 * Author:		Themetorium
 * URL:			http://themetorium.net
@@ -62,14 +62,14 @@ body {
 #header ul.menu-list > li > a {
 	color: #BBB;
 }
-#header ul.menu-list > li > a:hover, 
+#header ul.menu-list > li > a:hover,
 #header ul.menu-list > li.active > a {
 	color: #ea4e4e;
 }
 #header ul.menu-list .sub-menu > li > a {
 	color: #808080;
 }
-#header ul.menu-list .sub-menu > li > a:hover, 
+#header ul.menu-list .sub-menu > li > a:hover,
 #header ul.menu-list .sub-menu > li.active > a {
 	color: #ea4e4e;
 }
@@ -177,21 +177,21 @@ body {
 .blog-list-grid .bl-item-info {
 	background-color: #111;
 }
-.bl-item-title, 
+.bl-item-title,
 .bl-item-title h2 {
 	color: #CCC;
 }
-.bl-item-title:hover, 
-.bl-item-title:focus, 
-.bl-item-title h2:hover, 
-.bl-item-title h2:focus { 
+.bl-item-title:hover,
+.bl-item-title:focus,
+.bl-item-title h2:hover,
+.bl-item-title h2:focus {
 	color: #ea4e4e;
 }
 .bl-item-desc {
 	color: #888;
 }
-.bl-item-read-more span, 
-.bl-item-read-more span:before, 
+.bl-item-read-more span,
+.bl-item-read-more span:before,
 .bl-item-read-more span:after {
 	background-color: #4e4e4e;
 }
@@ -253,9 +253,9 @@ body {
 .blog-single-post-title,
 .blog-single-meta .article-author,
 .blog-single-meta .article-author a,
-.bs-nav-title, 
+.bs-nav-title,
 .bs-nav-title h4,
-.related-posts-item .rp-item-title, 
+.related-posts-item .rp-item-title,
 .related-posts-item .rp-item-title h4 {
 	color: #CCC;
 }
@@ -265,11 +265,11 @@ body {
 	color: #999;
 }
 .blog-single-meta .article-author a:hover,
-.blog-single-links a:hover, 
-.blog-single-links a:focus, 
+.blog-single-links a:hover,
+.blog-single-links a:focus,
 .blog-single-links .favorite-btn:hover,
 .bs-nav-title:hover, .bs-nav-title h4:hover,
-.related-posts-item .rp-item-title:hover, 
+.related-posts-item .rp-item-title:hover,
 .related-posts-item .rp-item-title h4:hover,
 .media-heading a:hover {
 	color: #ea4e4e;
@@ -282,25 +282,25 @@ body {
 }
 
 /* pagination */
-.pagination > li > a, 
+.pagination > li > a,
 .pagination > li > span {
 	color: #CCC;
 	background-color: #222;
 	border: 1px solid #292929;
 }
-.pagination > .active > a, 
-.pagination > .active > a:focus, 
-.pagination > .active > a:hover, 
-.pagination > .active > span, 
-.pagination > .active > span:focus, 
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
 .pagination > .active > span:hover {
 	color: #FFF;
 	background-color: #ea4e4e;
 	border-color: #ea4e4e;
 }
-.pagination > li > a:focus, 
-.pagination > li > a:hover, 
-.pagination > li > span:focus, 
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
 .pagination > li > span:hover {
 	color: #FFF;
 	background-color: #313131;
@@ -308,7 +308,7 @@ body {
 }
 
 /* owl carousel */
-.nav-light .owl-nav .owl-prev, 
+.nav-light .owl-nav .owl-prev,
 .nav-light .owl-nav .owl-next {
 	background-color: rgba(0, 0, 0, 0.4);
 }
@@ -328,11 +328,11 @@ body {
 	color: #DDD;
 	background-color: rgba(189, 189, 189, 0.25);
 }
-.btn-default.active, 
-.btn-default.focus, 
-.btn-default:active, 
-.btn-default:focus, 
-.btn-default:hover, 
+.btn-default.active,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover,
 .open > .dropdown-toggle.btn-default {
 	color: #FFF;
 	background-color: rgba(189, 189, 189, 0.43)
@@ -342,11 +342,11 @@ body {
 	color: #CCC;
 	border-color: #CCC;
 }
-.btn-dark-bordered.active, 
-.btn-dark-bordered.focus, 
-.btn-dark-bordered:active, 
-.btn-dark-bordered:focus, 
-.btn-dark-bordered:hover, 
+.btn-dark-bordered.active,
+.btn-dark-bordered.focus,
+.btn-dark-bordered:active,
+.btn-dark-bordered:focus,
+.btn-dark-bordered:hover,
 .open > .dropdown-toggle.btn-dark-bordered {
 	color: #222;
 	background-color: #CCC;
@@ -409,7 +409,7 @@ select option {
 .demo-thumbnail-btn {
 	color: #CCC;
 }
-.demo-thumbnail-btn:hover, 
+.demo-thumbnail-btn:hover,
 .demo-thumbnail-btn:focus {
 	color: #ea4e4e;
 }
