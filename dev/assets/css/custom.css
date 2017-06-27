@@ -1,0 +1,30 @@
+/*
+/* Custom Style
+/* ========================= */
+
+/* Temporary
+/* @TODO
+/* temp stylings and quick fixes
+/* ------------------------- */
+
+.filing-code {
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.filing-code a:hover { text-decoration: underline; }
+
+#homePage .filing-code {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#homePage .filing-code a {
+  color: rgba(255, 255, 255, .4);
+}
