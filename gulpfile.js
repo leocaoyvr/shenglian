@@ -57,9 +57,8 @@ gulp.task('css', function() {
       browsers: ['last 2 versions', 'ie 8', 'ie 9']
     }))
     .pipe(csso({
-      restructure: true,
       sourceMap: true,
-      debug: true
+      debug: false
     }))
     .pipe(sourcemaps.write())
     .on('error', function (error) {
