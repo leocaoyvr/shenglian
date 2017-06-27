@@ -58,9 +58,10 @@ gulp.task('css', function() {
     }))
     .pipe(csso({
       sourceMap: true,
+      comments: false, // no comments in deployment
       debug: false
     }))
-    .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write()) // no sourcemaps in deployment
     .on('error', function (error) {
       console.error(error);
       this.emit('end');
