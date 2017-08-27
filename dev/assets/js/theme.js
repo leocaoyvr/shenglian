@@ -49,7 +49,7 @@ Table of Contents
 		timeoutCountdown: 4000,
 		onLoadEvent: true,
 		browser: ['animation-duration', '-webkit-animation-duration', '-o-animation-duration'], // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-		
+
 		overlay : false,
 		overlayClass : 'animsition-overlay-slide',
 		overlayParentElement : 'html',
@@ -75,7 +75,7 @@ Table of Contents
 
 
 	// =========================================================================
-	// Smooth scrolling 
+	// Smooth scrolling
 	// Note: requires Easing plugin - http://gsgd.co.uk/sandbox/jquery/easing/
 	// =========================================================================
 
@@ -150,9 +150,9 @@ Table of Contents
 		return false;
 	});
 	// close sub menu if mouse leave menu
-	$('#menu').on('mouseleave', function(){
-		$('.sub-menu').stop(true).delay(800).slideUp(350);
-	});
+	// $('#menu').on('mouseleave', function(){
+	// 	$('.sub-menu').stop(true).delay(800).slideUp(350);
+	// });
 
 
 	// mobile menu toggle
@@ -325,7 +325,7 @@ Table of Contents
 	// ==========================================
 
 	if ( $(window).width() > 768 ) { // Disable nicescroll on small screens.
-		 
+
 		// Init nicescroll (for horizontal scroll)
 		$(".hs-inner").niceScroll({
 			cursorcolor:"#4c4c4c", // change cursor color in hex
@@ -362,7 +362,7 @@ Table of Contents
 
 		// Please read about gallery options here: http://sachinchoolur.github.io/lightGallery/docs/api.html
 
-		// lightgallery core 
+		// lightgallery core
 		selector: '.lg-trigger',
 		mode: 'lg-fade', // Type of transition between images ('lg-fade' or 'lg-slide').
 		height: '100%', // Height of the gallery (ex: '100%' or '300px').
@@ -384,7 +384,7 @@ Table of Contents
 
 		// thumbnial plugin
 		thumbnail: true, // Enable thumbnails for the gallery.
-		showThumbByDefault: false, // Show/hide thumbnails by default.
+		showThumbByDefault: true, // Show/hide thumbnails by default.
 		thumbMargin: 5, // Spacing between each thumbnails.
 		toogleThumb: true, // Whether to display thumbnail toggle button.
 		enableThumbSwipe: true, // Enables thumbnail touch/swipe support for touch devices.
@@ -420,7 +420,7 @@ Table of Contents
 		// Vimeo video options
 		loadVimeoThumbnail: true, // You can automatically load thumbnails for vimeo videos from vimeo by setting loadYoutubeThumbnail true.
 		vimeoThumbSize: 'thumbnail_medium', // Thumbnail size for vimeo videos: 'thumbnail_large' or 'thumbnail_medium' or 'thumbnail_small'.
-		vimeoPlayerParams: { // Change vimeo player parameters: https://developer.vimeo.com/player/embedding#universal-parameters 
+		vimeoPlayerParams: { // Change vimeo player parameters: https://developer.vimeo.com/player/embedding#universal-parameters
 		byline : 1,
 		portrait : 1,
 		title: 1,
@@ -438,7 +438,7 @@ Table of Contents
 	// =======================================================
 
 	// Disabled on mobile devices, because video background doesn't work on mobile devices (instead the background image is displayed).
-	if (!jQuery.browser.mobile) { 
+	if (!jQuery.browser.mobile) {
 		$(".youtube-bg").mb_YTPlayer();
 	}
 
@@ -582,4 +582,4 @@ Table of Contents
 	});
 
 
-})(jQuery); 
+})(jQuery);
